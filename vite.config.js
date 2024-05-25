@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: 'https://wei886-tw.github.io/Tic-Tac-Toe/',
+  base: 'https://wei886-tw.github.io',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
